@@ -1,3 +1,89 @@
+body {
+  min-width: 345px;
+}
+
+#searchbox {
+  max-width: 600px;
+  margin: 50px auto;
+  border: 2px solid #006400;
+  box-shadow: 5px 5px 10px #006400;
+  border-radius: 5px;
+  padding: 0 20px 20px 20px;
+}
+
+#searchbox h2 {
+  color: #006400;
+}
+
+#searchbox button {
+  width: 100%;
+  margin: 5px 0;
+}
+
+#searchbox input {
+  width: 85%;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.glyphicon {
+  margin: 0 5px;
+}
+
+.glyphicon.glyphicon-random {
+  float: right;
+  padding: 9px;
+  margin: 4px 0 0 0;
+}
+
+.glyphicon.glyphicon-random,
+#search
+{
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: outset;
+  border-color: initial;
+}
+
+.glyphicon-random:hover,
+#search:hover {
+  background-color: rgba(0, 64, 0, 0.70);
+  color: #ffffff;
+}
+
+.expand {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+       -moz-transition:    -moz-transform 0.5s ease-in-out;
+         -o-transition:      -o-transform 0.5s ease-in-out;
+            transition:         transform 0.5s ease-in-out;
+  -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.wiki_logo {
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.wiki_logo:hover {
+  background-color: #006400;
+}
+
+.panel-title:hover {
+  color: #006400;
+}
+
+.panel-body {
+  display: none;
+}
+
+
+/* TEMPLATE STYLES */
+
 #top_header {
   color:#ffffff;
   background-color: #006400;
@@ -9,9 +95,9 @@
 #credits {
   border: 2px solid #006400;
   box-shadow: 5px 5px 10px #006400;
-  width: 600px;
+  max-width: 600px;
   margin: 20px auto;
-  padding: 15px;
+  padding: 5px;
   border-radius: 15px;
 }
 
@@ -27,4 +113,8 @@
 
 #credits a {
   color: #006400;
+}
+
+#credits .row {
+  margin-bottom: 20px;
 }

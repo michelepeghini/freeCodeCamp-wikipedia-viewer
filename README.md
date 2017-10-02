@@ -1,4 +1,4 @@
-# freeCodeCamp: Wikioedia Viewer
+# freeCodeCamp: Wikipedia Viewer
 
 This is a Wikipedia Viewer developed for the freeCodeCamp Front End Certificate
 
@@ -8,7 +8,7 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Requirements
 
-* Build a CodePen.io app that is functionally similar to [this] (https://codepen.io/FreeCodeCamp/full/wGqEga/)
+* Build a CodePen.io app that is functionally similar to [this](https://codepen.io/FreeCodeCamp/full/wGqEga/)
 * **User Story:** I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
 * **User Story:**  I can click a button to see a random Wikipedia entry.
 
