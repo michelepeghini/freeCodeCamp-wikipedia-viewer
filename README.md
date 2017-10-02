@@ -22,7 +22,7 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Screenshots
 
-![Wiki Viewer Results](/wiki-viewer-results.png Wiki Viewer Results")
+![Wiki Viewer Results](/wiki-viewer-results.png "Wiki Viewer Results")
 
 ## APIs / Libraries used
 * [Wiki Quote API by Nate Tyler](https://github.com/natetyler/wikiquotes-api)
