@@ -45,11 +45,11 @@ function buildResultElement(el) {
   var body = $('<div class="panel-body" />');  
   var rowBody = $('<div class="row" />');
   if (el.hasOwnProperty('pageimage')){
-    var image = $('<div class="col-xs-3">');
+    var image = $('<div class="col-xs-2">');
     var imageName = el.pageimage.split('.')[0];
-    image.html('<img src="'+ el.thumbnail.source + '" title="'+ imageName +'" alt="'+imageName+'" class="img img-responsive" width="100%">');
+    image.html('<img src="'+ el.thumbnail.source + '" title="'+ imageName +'" alt="'+imageName+'" class="img img-responsive thumb" width="100%">');
     body.append(image);  
-    var extract = $('<div class="col-xs-9">');
+    var extract = $('<div class="col-xs-10">');
     extract.html('<p>'+el.extract+'</p>');
     body.append(extract);
   } else {

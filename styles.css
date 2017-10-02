@@ -81,6 +81,9 @@ body {
   display: none;
 }
 
+.thumb {
+  border: 1px solid #006400;
+}
 
 /* TEMPLATE STYLES */
 

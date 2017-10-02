@@ -22,12 +22,14 @@ This is a stand alone single page app, all external libraries needed are either 
 
 ## Screenshots
 
-![###](/###.png "###")
+![Wiki Viewer Results](/wiki-viewer-results.png Wiki Viewer Results")
 
 ## APIs / Libraries used
-
+* [Wiki Quote API by Nate Tyler](https://github.com/natetyler/wikiquotes-api)
 * jQuery 3.2.1
 * Bootstrap 3.3.7 CSS
 
 ## Licence 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
