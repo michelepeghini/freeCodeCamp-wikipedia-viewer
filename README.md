@@ -18,7 +18,7 @@ This is a stand alone single page app, all external libraries needed are either 
 * Results are displayed by title, and can be expanded to show a thumbnail image and a brief desctiption
 * "Search" buttons queries Wikipedia API against input string
 * "Wiki logo" button on right hand side of titles opens relative link to Wikipedia in a new tab
-* "Random" button on side of search box opens a random Wikipedia page ona  new tab
+* "Random" button on side of search box opens a random Wikipedia page in a  new tab
 
 ## Screenshots
 
